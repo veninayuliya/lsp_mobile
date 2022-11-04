@@ -1,4 +1,5 @@
 import 'package:coba_sertif/screens/login.dart';
+import 'package:coba_sertif/screens/maps.dart';
 import 'package:coba_sertif/screens/profile.dart';
 import 'package:flutter/material.dart';
 
@@ -23,7 +24,7 @@ class _HomeState extends State<Home> {
     final _listPage = <Widget>[
       const Text('Selamat Datang'),
       const Profile(),
-      const Text('Lokasi'),
+      const MapsScreen(dataUser: null),
     ];
 
     final _bottomNavBarItems = <BottomNavigationBarItem>[

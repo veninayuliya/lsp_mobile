@@ -38,6 +38,10 @@ dependencies:
   path_provider: ^2.0.11
   sqflite:
   shared_preferences:
+  flutter_svg:
+  geocoding:
+  geolocator:
+  maps_launcher:
 
 dev_dependencies:
   flutter_test:
